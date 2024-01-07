@@ -2,7 +2,7 @@
 sensing letters in your letterbox via two infrared proximity sensors (HSDL9100),
 sending out status via lora / lorawan, using RAK3172 (based on STM32WLE5CC) CPU/RF, powered by a CR2032 battery.
 
-![Lorawan letterbox sensor v2](https://github.com/hierle/letterbox-sensor-v2/blob/master/misc/letterbox-sensor-v2.png?raw=true)
+![Lorawan letterbox sensor v2](https://github.com/hierle/letterbox-sensor-v2/blob/main/misc/letterbox-sensor-v2.png?raw=true)
 
 This project was inspired by the heise ct briefkasten sensor project<br>
 https://www.heise.de/ratgeber/IoT-Netz-LoRaWAN-Briefkastensensor-mit-hoher-Reichweite-selber-bauen-4417179.html<br>
