@@ -112,8 +112,8 @@ Letterbox sensor v2 lorawan payload package byte structure:
 
 |byte|    0     |  1   2 | 3   4 | 5   6 |    7    |
 |----|----------|--------|-------|-------|---------|
-|c   |0x00=empty|battery |sensor1|sensor2|threshold|
-|c   |0xFF=full |voltage |raw    |raw    |         |
+|    |0x00=empty|battery |sensor1|sensor2|threshold|
+|    |0xFF=full |voltage |raw    |raw    |         |
 
 
 Todos:
