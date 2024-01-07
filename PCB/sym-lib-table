@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Letterbox_Sensor")(type "KiCad")(uri "${KIPRJMOD}/Letterbox_Sensor.kicad_sym")(options "")(descr ""))
+)
