@@ -100,7 +100,8 @@ void sensor_handler(void *) {
   delay(25);
   bat=analogRead(vdiv);
   //Serial.printf("Voltage12b: %d\r\n", bat);
-  bat = 1750 + (bat - 1235)*10;
+  //bat = 1750 + (bat - 1235)*10; // 2x 3.3MOhm
+  bat = 1550 + (bat - 1040)*8; // 2x 10MOhm
   Serial.printf("Voltage: %d\r\n", bat);
   analogReadResolution(10);
 

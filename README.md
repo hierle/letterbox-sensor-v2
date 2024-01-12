@@ -14,7 +14,6 @@ Contents:
 - ./PCB/ :                  kicad PCB files
 - ./letterbox-sensor-v2/ :  lorawan letterbox sensor sketch
 - ./misc/ :                 payload decoder, sample http integration cgi
-- ./misc/pb/ :              PB extensions and improvements
 
 
 Compiled and flashed with ArduinoIDE with RAKWireless STM32 extensions
@@ -22,12 +21,12 @@ Compiled and flashed with ArduinoIDE with RAKWireless STM32 extensions
 
 Features:
 - using RAKWireless RAK3172 based on STM32WLE5CC
-- deep sleep at (measured) 9uA including battery voltage divider and tantalium caps
+- deep sleep at (measured) 5uA including battery voltage divider and tantalium caps
 - two proximity sensors HSDL9100
 - USB-C interface for flashing and serial monitor, via FT230XS-R USB-UART
 - onboard 868MHz PCB antenna after TI document http://www.ti.com/lit/an/swra227e/swra227e.pdf
 - lorawan activation either ABP or OTAA
-- battery voltage measurment thru voltage divider (2x 3.3MOhm)
+- battery voltage measurment thru voltage divider (2x 10MOhm)
 
 
 Changes to v1:
@@ -64,7 +63,7 @@ BOM (digikey.de):
 | 1     | GRM188R72A104KA35D | DIP switch              | Power switch USB/Battery |
 | 2     | AA3528LSECKT/J4    | LED orange              | Status/USB status        |
 | 2     | CRGCQ1206F220R     | RES 220 Ohm 1206        | Status LEDs              |
-| 2     | RC1206FR-073M3L    | RES 3.3M Ohm 1206       | Battery voltage measure  |
+| 2     | RC1206FR-0710ML    | RES 10M Ohm 1206        | Battery voltage measure  |
 
 
 RAK3172 documentation:
