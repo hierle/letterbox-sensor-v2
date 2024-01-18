@@ -8,7 +8,7 @@ sending out status via lora / lorawan, using RAK3172 (based on STM32WLE5CC) CPU/
 This project was inspired by the heise ct briefkasten sensor project<br>
 https://www.heise.de/ratgeber/IoT-Netz-LoRaWAN-Briefkastensensor-mit-hoher-Reichweite-selber-bauen-4417179.html<br>
 https://github.com/jamct/radio-mailbox<br>
-and is a direct successor of version 1 https://github.com/hierle/letterbox-sensor
+and is a direct successor of version 1: https://github.com/hierle/letterbox-sensor
 
 
 Contents:
@@ -16,7 +16,7 @@ Contents:
 - ./letterbox-sensor-v2/ :  lorawan letterbox sensor sketch
 - ./misc/ :                 payload decoder, sample http integration cgi
 
-Extended web gui by Peter here: https://github.com/pbiering/letterbox-sensor-web
+An extended web ui by Peter is available here: https://github.com/pbiering/letterbox-sensor-web
 
 Compiled and flashed with ArduinoIDE with RAKWireless STM32 extensions
 
@@ -93,7 +93,7 @@ https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSP-Index/main
 For configuration adjust config.h and lorawan.h
 
 config.h:
-- PERIOD: the time intervall you want the sensor to send it's data, in milliseconds, default is 30 minutes (30*60*1000)
+- PERIOD: the time intervall you want the sensor to send it's data, in milliseconds, default is 30 minutes (30 x 60 x 1000)
 - THRESHOLD: the threshold for the sensor readings (empty/full), can later be "overwritten" in e.g. HTML integration
 - USE_OTAA: if true, OTAA will be used instead of ABP, so we do not have to worry about frame counters after reset / battery change
 - DATARATE and TXPOWER: adjust to your needs, your packets should be reliably received, w/o wasting to much power
