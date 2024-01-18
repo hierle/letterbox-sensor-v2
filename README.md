@@ -16,6 +16,7 @@ Contents:
 - ./letterbox-sensor-v2/ :  lorawan letterbox sensor sketch
 - ./misc/ :                 payload decoder, sample http integration cgi
 
+Extended web gui by Peter here: https://github.com/pbiering/letterbox-sensor-web
 
 Compiled and flashed with ArduinoIDE with RAKWireless STM32 extensions
 
