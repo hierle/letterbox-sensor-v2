@@ -83,6 +83,8 @@ in short:<br>
 https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless.com_rui_index.json
 - install the "RAKwireless RUI STM32 Boards" from the Boards Manager
 - select "WisDuo RAK3172 Evaluation Board" board
+- on Mac you might need to install pyserial: sudo pip3 install pyserial
+- on Linux you might need to install python3-pyserial
 - connect the board, make sure it's powered on (DIP switch)
 - select the corresponding serial port
 - open the sketch folder
