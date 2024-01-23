@@ -3,9 +3,9 @@
 //
 
 
-// period for sending, e.g. 30 minutes (30*60*1000)
-//#define PERIOD 30*60*1000
-#define PERIOD 30*60*1000
+// period for sending, e.g. 30 minutes
+//#define PERIOD 30
+#define PERIOD 30
 
 // threshold for proximity sensor values
 #define THRESHOLD 150

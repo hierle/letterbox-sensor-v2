@@ -47,7 +47,7 @@ void setup() {
 	// create timer
 	api.system.timer.create(RAK_TIMER_0, sensor_handler, RAK_TIMER_PERIODIC);
   // start timer
-	api.system.timer.start(RAK_TIMER_0, PERIOD, NULL);
+	api.system.timer.start(RAK_TIMER_0, PERIOD*60*1000, NULL);
 
   // get and send sensor values on boot
 	sensor_handler(NULL);
