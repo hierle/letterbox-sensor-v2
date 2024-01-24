@@ -93,7 +93,7 @@ https://raw.githubusercontent.com/RAKWireless/RAKwireless-Arduino-BSP-Index/main
 For configuration adjust config.h and lorawan.h
 
 config.h:
-- PERIOD: the time intervall you want the sensor to send it's data, in seconds, default is 30 minutes
+- PERIOD: the time intervall you want the sensor to send it's data, in minutes, default is 30 minutes
 - THRESHOLD: the threshold for the sensor readings (empty/full), can later be "overwritten" in e.g. HTML integration
 - USE_OTAA: if true, OTAA will be used instead of ABP, so we do not have to worry about frame counters after reset / battery change
 - DATARATE and TXPOWER: adjust to your needs, your packets should be reliably received, w/o wasting to much power
