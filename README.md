@@ -18,6 +18,8 @@ Contents:
 
 An extended web ui by Peter is available here: https://github.com/pbiering/letterbox-sensor-web
 
+A nice alternative software by Henrik, using Lora P2P mode is available here: https://github.com/HonkStonk/MightyMailbox
+
 Compiled and flashed with ArduinoIDE with RAKWireless STM32 extensions
 
 
